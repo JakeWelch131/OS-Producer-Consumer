@@ -1,0 +1,24 @@
+jacobwelch131@jacobwelch131-VirtualBox:~/Desktop/OS Project$ gcc producer.c -pthread -lrt -o producer
+jacobwelch131@jacobwelch131-VirtualBox:~/Desktop/OS Project$ gcc consumer.c -pthread -lrt -o consumer
+jacobwelch131@jacobwelch131-VirtualBox:~/Desktop/OS Project$ ./producer & ./consumer
+[1] 100099
+Produced: 91
+Produced: 85
+Consumed:  85
+Consumed:  91
+Produced: 26
+Produced: 79
+Consumed:  79
+Consumed:  26
+Produced: 38
+Produced: 52
+Consumed:  52
+Consumed:  38
+Produced: 35
+Produced: 65
+Consumed:  65
+Consumed:  35
+Produced: 43
+Produced: 33
+Consumed:  33
+Consumed:  43
